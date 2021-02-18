@@ -70,7 +70,7 @@ p2c/p2c-2.01/install/usr/lib/libp2c.a : | \
 
 p2c/p2c-2.01 : | p2c/p2c-2.01.tar.gz
 	cd p2c && \
-	gtar -xzvf p2c-2.01.tar.gz && \
+	tar -xzvf p2c-2.01.tar.gz && \
 	patch -p1 < p2c-2.01.patch
 
 # see also https://github.com/FranklinChen/p2c
